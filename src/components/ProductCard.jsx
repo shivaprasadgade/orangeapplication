@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
         <p className="text-orange-500 font-bold mt-2">{product.price}</p>
         <div className="mt-4">
           <a 
-            href={`https://wa.me/9550518821?text=${encodeURIComponent(whatsappMessage)}`}
+            href={`https://wa.me/919100125292?text=${encodeURIComponent(whatsappMessage)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-md inline-block transition"
