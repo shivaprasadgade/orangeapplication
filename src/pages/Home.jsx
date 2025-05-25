@@ -1,25 +1,29 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
+import ss2 from "../assets/shirts2.jpeg"
+import t1 from "../assets/tshirts.jpeg"
+import p1 from "../assets/pant1.jpeg"
+
 
 const Home = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: 'Premium Jeans',
-      price: '₹1,499',
-      image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+      name: 'Premium-tshirts',
+      price: '₹799',
+      image: t1
     },
     {
       id: 2,
-      name: 'Casual T-Shirt',
-      price: '₹799',
-      image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+      name: "white pant",
+      price: '₹899',
+      image: p1
     },
     {
       id: 3,
-      name: 'Formal Shirt',
-      price: '₹1,199',
-      image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+      name: 'printed-shirts',
+      price: '₹799',
+      image: ss2
     },
   ];
 

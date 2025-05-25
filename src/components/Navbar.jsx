@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pic1 from '../ChatGPT Image May 2, 2025, 02_16_36 PM.png'; // Consider renaming the file to avoid issues
+import pic1 from '../assets/orangelogo.png'; // Consider renaming the file to avoid issues
+
 
 const Navbar = () => {
   return (

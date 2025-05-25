@@ -51,8 +51,8 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4 text-orange-400">Contact Us</h3>
-            <p className="mb-2">Phone: +91 9550518821</p>
-            <p className="mb-2">Email: info@orangefashion.com</p>
+            <p className="mb-2">Phone: +91 9100125292</p>
+            <p className="mb-2">Email: nitturayudu4@gmail.com</p>
             <p>Address: Karimnagar, telangana</p>
           </div>
         </div>

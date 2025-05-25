@@ -19,9 +19,9 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold">Phone</h3>
-                <p>+91 9550518821</p>
+                <p>+91 9100125292</p>
                 <a 
-                  href="https://wa.me/9550518821" 
+                  href="https://wa.me/919100125292" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-orange-500 hover:underline inline-block mt-1"
@@ -39,7 +39,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p>info@orangefashion.com</p>
+                <p>nitturayadu4@gmail.com</p>
               </div>
             </div>
             
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold">Store Location</h3>
-                <p>Kurnool, Andhra Pradesh</p>
+                <p>karimnagar,Telangana</p>
                 <a 
                   href="https://maps.app.goo.gl/fAEEHd91XmCpgM7r9" 
                   target="_blank" 

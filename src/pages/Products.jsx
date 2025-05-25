@@ -1,49 +1,55 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
+import s1 from "../assets/shirt1.jpeg"
+import s2 from "../assets/shirt2.jpeg"
+import ss1 from "../assets/shirts1.jpeg"
+import p1 from "../assets/pant1.jpeg"
+import ss2 from "../assets/shirts2.jpeg"
+import t1 from "../assets/tshirts.jpeg"
 
 const Products = () => {
   const products = [
     {
       id: 1,
-      name: 'Premium Jeans',
-      price: '₹1,499',
-      image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      name: 'white pant',
+      price: '₹999',
+      image: p1,
       category: 'jeans'
     },
     {
       id: 2,
-      name: 'Casual T-Shirt',
+      name: 'maroon shirt',
       price: '₹799',
-      image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: s2,
       category: 'tshirts'
     },
     {
       id: 3,
       name: 'Formal Shirt',
-      price: '₹1,199',
-      image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      price: '799',
+      image: s1,
       category: 'shirts'
     },
     {
       id: 4,
-      name: 'Slim Fit Jeans',
-      price: '₹1,299',
-      image: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      name: 'shirts',
+      price: '₹1399',
+      image: ss1,
       category: 'jeans'
     },
     {
       id: 5,
-      name: 'Printed T-Shirt',
+      name: 'Printed-Shirt',
       price: '₹899',
-      image: 'https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      category: 'tshirts'
+      image: ss2,
+      category: 'shirts'
     },
     {
       id: 6,
-      name: 'Office Formals',
+      name: 'premium t-shirts',
       price: '₹1,599',
-      image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      category: 'formals'
+      image: t1,
+      category: 'tshirts'
     },
   ];
 
